@@ -1,4 +1,4 @@
-Paper Title: LiCoO2/LiNiCoO2 Battery State of Health (SoH) Estimation Using Automated Machine Learning (AutoML): Performance Comparison
+Paper Title: Lithium battery state of health estimation using automated machine learning (AutoML): performance comparison
 Authors: Hasibe Candan Kadem, Onur Kadem
 
 Dataset:
