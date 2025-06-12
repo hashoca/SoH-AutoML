@@ -1,4 +1,3 @@
-INFO.txt
 
 Project: Battery State of Health Estimation using AutoML
 Authors: Hasibe Candan Kadem, Onur Kadem
