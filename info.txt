@@ -1,4 +1,4 @@
-Paper Title: Lithium battery state of health estimation using automated machine learning (AutoML): performance comparison
+Paper Title: Lithium-ion battery state of health estimation using automated machine learning (AutoML): performance comparison
 Authors: Hasibe Candan Kadem, Onur Kadem
 
 Dataset:
