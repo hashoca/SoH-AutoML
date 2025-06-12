@@ -1,11 +1,9 @@
-
-Project: Battery State of Health Estimation using AutoML
-Authors: Hasibe Candan Kadem, Onur Kadem
 Paper Title: LiCoO2/LiNiCoO2 Battery State of Health (SoH) Estimation Using Automated Machine Learning (AutoML): Performance Comparison
+Authors: Hasibe Candan Kadem, Onur Kadem
 
 Dataset:
 ---------
-- Name: Oxford Battery Degradation Dataset
+- Name: Oxford_Battery_Degradation_Dataset_1.mat
 - Source: https://ora.ox.ac.uk/objects/uuid:03ba4b01-cfed-46d3-9b1a-7d4a7bdf6fac
 - Format: CSV files per battery cell (Cell1 through Cell8)
 - Description: Contains voltage, current, temperature measurements and aging information under controlled laboratory conditions.
@@ -54,4 +52,5 @@ Feature Engineering:
     * Equivalent Full Cycles (EFC)
     * IC Peak Amplitude (dQ/dV)
     * Mean Operating Temperature
+    * State of Health (SoH)
 - These features are computed and stored in the `FeatureEngineering/` directory.
