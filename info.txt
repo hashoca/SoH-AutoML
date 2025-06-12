@@ -1,1 +1,58 @@
-Dataset : https://ieee-dataport.org/documents/bess-set#files
+INFO.txt
+
+Project: Battery State of Health Estimation using AutoML
+Authors: Hasibe Candan Kadem, Onur Kadem
+Paper Title: LiCoO2/LiNiCoO2 Battery State of Health (SoH) Estimation Using Automated Machine Learning (AutoML): Performance Comparison
+
+Dataset:
+---------
+- Name: Oxford Battery Degradation Dataset
+- Source: https://ieee-dataport.org/documents/bess-set#files
+- Format: CSV files per battery cell (Cell1 through Cell8)
+- Description: Contains voltage, current, temperature measurements and aging information under controlled laboratory conditions.
+
+Code Summary:
+--------------
+- This repository includes the full implementation of 7 different open-source AutoML frameworks:
+    * FLAML
+    * TPOT
+    * H2O AutoML
+    * AutoGluon
+    * PyCaret
+    * EvalML
+    * LazyPredict
+
+- Each framework was executed with:
+    * Python 3.8.10
+    * A runtime budget of **900 seconds**
+    * CPU-only processing (GPU acceleration disabled)
+    * Default internal hyperparameter search spaces
+    * LOCO (Leave-One-Cell-Out) nested cross-validation
+
+Folder Structure:
+------------------
+├── FLAML/
+│   └── flaml_900s.py
+├── TPOT/
+│   └── tpot_900s.py
+├── H2O_AutoML/
+│   └── h2o_900s.py
+├── AutoGluon/
+│   └── autogluon_900s.py
+├── PyCaret/
+│   └── pycaret_900s.py
+├── EvalML/
+│   └── evalml_900s.py
+├── LazyPredict/
+│   └── lazypredict_900s.py
+├── FeatureEngineering/
+│   └── # includes preprocessed CSV/mat files
+└── info.txt
+
+Feature Engineering:
+---------------------
+- Raw sensor data (voltage, current, temperature) is transformed into the following features:
+    * Equivalent Full Cycles (EFC)
+    * IC Peak Amplitude (dQ/dV)
+    * Mean Operating Temperature
+- These features are computed and stored in the `FeatureEngineering/` directory.
