@@ -105,3 +105,9 @@ numpy, pandas, scikit-learn
 flaml, tpot, h2o, autogluon, pycaret, evalml, lazypredict
 
 matplotlib, seaborn, scipy
+
+
+## Conclusion
+
+This study presents a reproducible benchmark for comparing seven open-source AutoML frameworks in predicting the state of health (SoH) of lithium-ion batteries. Using the Oxford Battery Degradation Dataset, features such as Equivalent Full Cycles, IC peak amplitude, and mean cell temperature were extracted to capture electrochemical and thermal aging behavior. A key methodological contribution is the use of leave-one-cell-out nested cross-validation, which ensures generalizability across cells with varying degradation profiles. All frameworks were evaluated under identical preprocessing, metrics, and runtime constraints. Results show that AutoML tools like FLAML, TPOT, AutoGluon, and H2O AutoML can provide highly accurate predictions without manual tuning, while frameworks such as PyCaret and EvalML offer better interpretability. LazyPredict proved useful for rapid model screening. The findings support AutoML as a scalable and effective approach for battery SoH estimation. Future directions include integrating domain knowledge, uncertainty quantification, and edge deployment for real-time battery management systems.
+
