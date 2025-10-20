@@ -11,12 +11,18 @@ The study compares seven open-source AutoML frameworks for estimating the State 
 ---
 
 ## Dataset Information
-
+Dataset1
 - **Name:** Oxford Battery Degradation Dataset  
 - **Source:** [Oxford Research Archive](https://ora.ox.ac.uk/objects/uuid:03ba4b01-cfed-46d3-9b1a-7d4a7bdf6fac)  
 - **Format:** `.mat` files (converted to CSV)  
 - **Cells:** Cell1 through Cell8  
 - **Description:** Contains voltage, current, and temperature measurements under controlled laboratory conditions.
+Dataset2
+- **Name:** UofM Pouch Cell Voltage and Expansion Cyclic Aging Dataset (Mohtat et al., 2021)
+- **Source:** [University of Michigan – Deep Blue Data](https://deepblue.lib.umich.edu/data/concern/data_sets/5d86p0488)
+- **Format:** `.csv` files
+- **Cells:** Cell01, Cell03, Cell10, Cell11 and Cell12
+- **Description:** Voltage, current, temperature and expansion measurements under controlled conditions; characterization tests at specific intervals. Measurements were recorded at 10 s intervals.
 
 Preprocessed feature files are stored in the `FeatureEngineering/` directory.
 
