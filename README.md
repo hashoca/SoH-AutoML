@@ -17,6 +17,7 @@ Dataset1
 - **Format:** `.mat` files (converted to CSV)  
 - **Cells:** Cell1 through Cell8  
 - **Description:** Contains voltage, current, and temperature measurements under controlled laboratory conditions.
+  
 Dataset2
 - **Name:** UofM Pouch Cell Voltage and Expansion Cyclic Aging Dataset (Mohtat et al., 2021)
 - **Source:** [University of Michigan – Deep Blue Data](https://deepblue.lib.umich.edu/data/concern/data_sets/5d86p0488)
