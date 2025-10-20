@@ -6,7 +6,7 @@ This repository supports the study:
 **"Lithium-ion battery state of health estimation using automated machine learning (AutoML): performance comparison"**  
 **Authors:** Hasibe Candan Kadem, Onur Kadem
 
-The study compares seven open-source AutoML frameworks for estimating the State of Health (SoH) of lithium-ion batteries using features derived from real-world degradation data. Experiments are conducted using the Oxford Battery Degradation Dataset with a Leave-One-Cell-Out (LOCO) nested cross-validation strategy.
+The study benchmarks seven open-source AutoML frameworks for lithium-ion battery State-of-Health (SoH) estimation using physics-informed features derived from real-world degradation data. Experiments are conducted on two public datasets—the Oxford Battery Degradation Dataset (Cells 1–8) and the Mohtat et al. (2021, University of Michigan) Li-NMC pouch-cell dataset (Cells 01, 03, 10, 11, 12)—under a nested Leave-One-Cell-Out (LOCO) cross-validation protocol to assess battery-level generalization. The feature set includes, for example, equivalent full cycles (EFC), IC-based normalized peak magnitude, and temperature statistics, harmonized across datasets.
 
 ---
 
